@@ -4,6 +4,7 @@ module.exports = {
     title: 'gatsby-starter-code-notes',
     description: `A starter for gatsby-theme-code-notes`,
     author: 'Zander',
+    siteUrl: 'https://notes.albertb.dev'
   },
   plugins: [
     {
@@ -14,6 +15,7 @@ module.exports = {
         showThemeInfo: true,
         showDescriptionInSidebar: true,
       },
+      'gatsby-plugin-cname'
     },
   ],
 }
