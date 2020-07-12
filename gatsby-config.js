@@ -7,15 +7,15 @@ module.exports = {
     siteUrl: 'https://notes.albertb.dev'
   },
   plugins: [
+    'gatsby-plugin-cname',
     {
       resolve: 'gatsby-theme-code-notes',
       options: {
-        contentPath: 'notes',
+        contentPath: '/',
         basePath: '/',
         showThemeInfo: true,
         showDescriptionInSidebar: true,
       },
-      'gatsby-plugin-cname'
     },
   ],
 }
